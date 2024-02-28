@@ -1,0 +1,5 @@
+const REACT_APP_FB_ID = "461183239152446";
+const REACT_APP_GOOGLE_CLIENT =
+  "1072310200260-q1qe1abccig96i51rr1ab237c9mg91mq.apps.googleusercontent.com";
+
+export { REACT_APP_FB_ID, REACT_APP_GOOGLE_CLIENT };

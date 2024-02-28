@@ -1,6 +1,7 @@
 import React from "react";
 import FacebookLogin from "react-facebook-login";
 
+import { REACT_APP_FB_ID } from "./constants.js";
 const App = () => {
   const handleFacebookLogin = (response) => {
     if (response.accessToken) {
@@ -26,7 +27,7 @@ const App = () => {
     <div>
       <h1>Facebook Login Demo</h1>
       <FacebookLogin
-        appId={process.env.REACT_APP_FB_ID}
+        appId={REACT_APP_FB_ID}
         autoLoad={false}
         fields="name,email,picture"
         callback={handleFacebookLogin}
